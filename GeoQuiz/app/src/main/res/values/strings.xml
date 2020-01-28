@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">GeoQuiz</string>
+    <string name="true_button">True</string>
+    <string name="false_button">False</string>
+    <string name="next">Next</string>
+    <string name="question_ocean">The Atlantic Ocean is on the east coast of the United States.</string>
+    <string name="question_america">There are 48 states in the continental United States.</string>
+    <string name="question_africa">Greece is located in Africa.</string>
+    <string name="question_asia">China is located to the west of Japan.</string>
+    <string name="question_australia">Australia is located in the northern hemisphere.</string>
+</resources>
