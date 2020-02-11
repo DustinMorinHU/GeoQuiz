@@ -2,6 +2,7 @@ package com.example.geoquiz;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -65,6 +66,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 //Start CheatActivity
+                Intent i = new Intent(MainActivity.this, CheatActivity.class);
+                startActivity(i);
             }
         });
         mNextButton.setOnClickListener(new View.OnClickListener() {
